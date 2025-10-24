@@ -1,0 +1,12 @@
+* CMOS Inverter - NGSpice netlist (3.3V)
+* Generated for Muhammed Zeelan M
+Vdd vdd 0 DC 3.3
+Vin in 0 PULSE(0 3.3 0 1n 1n 1u 2u)
+M1 out in vdd vdd PMOS W=10u L=1u
+M2 out in 0 0 NMOS W=5u L=1u
+Rload out 0 10k
+.tran 0.1u 5u uic
+.op
+.model NMOS NMOS (LEVEL=1 VTO=0.7 BETA=1e-3)
+.model PMOS PMOS (LEVEL=1 VTO=-0.7 BETA=5e-4)
+.end

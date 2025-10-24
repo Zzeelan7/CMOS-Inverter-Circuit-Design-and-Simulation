@@ -1,0 +1,8 @@
+CMOS_Inverter Project
+=====================
+Files included:
+- CMOS_Inverter.kicad_sch : KiCad schematic (S-expression)
+- CMOS_Inverter.kicad_pro : KiCad project metadata
+- CMOS_Inverter.cir       : NGSpice netlist
+- CMOS_inverter_professional.png : Professional schematic PNG
+- README.txt              : Instructions to run simulation
