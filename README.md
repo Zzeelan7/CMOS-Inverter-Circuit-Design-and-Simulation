@@ -7,13 +7,13 @@
 
 ---
 
-## 📘 Objective
+## Objective
 
 To design and simulate a CMOS inverter circuit using eSim with the SG13G technology node, analyze its voltage transfer characteristics (VTC), transient behavior, and validate performance through SPICE-based simulations.
 
 ---
 
-## ⚙️ Project Description
+## Project Description
 
 The CMOS inverter is a fundamental digital logic gate composed of one PMOS and one NMOS transistor. In this project:
 
@@ -30,7 +30,7 @@ Simulations are carried out using **eSim** (an open-source EDA tool integrating 
 
 ---
 
-## 🧩 Files Included
+## Files Included
 
 | File                                 | Description                              |
 | ------------------------------------ | ---------------------------------------- |
@@ -44,7 +44,7 @@ Simulations are carried out using **eSim** (an open-source EDA tool integrating 
 
 ---
 
-## 🧪 How to Simulate
+## How to Simulate
 
 1. **Open in eSim**
 
@@ -78,7 +78,7 @@ Notes:
 
 ---
 
-## 📊 Expected Results
+## Expected Results
 
 1. Voltage Transfer Curve
    
@@ -183,7 +183,7 @@ Recommended filename: Logic_Timing_Diagram.png
 
 ---
 
-## 📦 Repository Structure
+## Repository Structure
 
 ```
 /
@@ -200,7 +200,7 @@ Recommended filename: Logic_Timing_Diagram.png
 
 ---
 
-## 🌐 GitHub Repository
+## GitHub Repository
 
 > Placeholder link: https://github.com/Zzeelan7/CMOS-Inverter-Circuit-Design-and-Simulation
 
