@@ -72,6 +72,10 @@ Simulations are carried out using **eSim** (an open-source EDA tool integrating 
    * Use eSim’s waveform viewer or export `.raw` data.
    * Compare your output with `transient_waveform.png`.
 
+Notes:
+- The .kicad_sch is a best-effort file and may require symbol mapping to your local KiCad libraries.
+- If you want a fully working KiCad project with correct library references, upload your KiCad library files or tell me which library names to use and I will adjust the schematic accordingly.
+
 ---
 
 ## 📊 Expected Results
