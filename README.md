@@ -86,10 +86,24 @@ Notes:
 
 Description: Shows one PMOS and one NMOS transistor connected in series between VDD and GND, with a single input (Vin) and output (Vout).
 
-Search keywords:
-CMOS inverter schematic diagram labeled,
-PMOS NMOS inverter circuit,
-eSim CMOS inverter schematic.
+
+This schematic represents a standard CMOS inverter designed using the IHP SG13G process in eSim. It consists of:
+
+A PMOS transistor (M1) connected between the output node and VDD (3.3 V).
+
+An NMOS transistor (M2) connected between the output node and ground (GND).
+
+The input node (Vin) drives the gates of both transistors simultaneously.
+
+The output node (Vout) is taken from the connection point between M1 and M2.
+
+When the input is LOW (0 V), the PMOS turns ON and NMOS turns OFF, producing a HIGH output (≈ 3.3 V).
+When the input is HIGH (3.3 V), the PMOS turns OFF and NMOS turns ON, pulling the output LOW (≈ 0 V).
+
+Purpose:
+To visually represent the transistor-level realization of the inverter before simulation.
+
+Recommended filename: CMOS_Inverter_Schematic.png
 
 2. Voltage Transfer Characteristic (VTC)
 
@@ -98,10 +112,21 @@ eSim CMOS inverter schematic.
 Description: A sigmoid-like curve showing Vout vs Vin (DC sweep).
 It starts high at Vin = 0 V and drops sharply around Vin ≈ 1.65 V for a 3.3 V inverter.
 
-Search keywords:
-CMOS inverter voltage transfer characteristics,
-CMOS inverter VTC plot 3.3V,
-inverter Vout vs Vin graph.
+This plot shows the DC transfer characteristic of the CMOS inverter, obtained using .dc Vin 0 3.3 0.01 analysis in Ngspice.
+The X-axis represents input voltage (Vin), and the Y-axis represents output voltage (Vout).
+
+As Vin increases:
+
+Initially, Vout remains HIGH (near 3.3 V).
+
+Around Vin ≈ 1.6 V, both transistors conduct partially, marking the switching threshold (Vth).
+
+Beyond this, Vout rapidly falls to near 0 V, showing inverter action.
+
+Purpose:
+To analyze the inverter’s switching threshold and noise margins.
+
+Recommended filename: VTC_Curve.png
 
 3. Transient Simulation Waveform
 
@@ -113,19 +138,44 @@ Vin: a square wave toggling between 0 V and 3.3 V
 
 Vout: inverted version of Vin
 
-Search keywords:
-CMOS inverter transient simulation waveform,
-inverter ngspice transient plot,
-Vin Vout CMOS inverter.
+The transient response demonstrates the dynamic switching behavior of the inverter when subjected to a periodic input pulse.
+The waveform shows:
+
+Vin (input) — a square wave toggling between 0 V and 3.3 V.
+
+Vout (output) — an inverted version of Vin with small delay due to transistor switching time.
+
+Key observations:
+
+When Vin = 0 V → Vout ≈ 3.3 V
+
+When Vin = 3.3 V → Vout ≈ 0 V
+
+Small rise/fall delays illustrate inverter propagation delay.
+
+Purpose:
+To verify inverter switching functionality in the time domain.
+
+Recommended filename: Transient_Waveform.png
 
 4. Timing Diagram
 
 <img width="897" height="526" alt="cad246fc23e5408ea33d4ce0e97b0e5c" src="https://github.com/user-attachments/assets/b7afde83-40cb-4d8a-9a1f-63cae516e543" />
 
 Description: Basic logic-level timing diagram showing the phase shift between Vin and Vout.
-Search keywords:
-inverter logic timing diagram,
-CMOS inverter logic waveform.
+
+A simplified logic-level waveform showing input and output transitions over time:
+
+Input (Vin) transitions from LOW → HIGH → LOW periodically.
+
+Output (Vout) transitions oppositely (HIGH → LOW → HIGH), maintaining complementary logic levels.
+
+This idealized diagram supports understanding of logical functionality before detailed SPICE simulations.
+
+Purpose:
+To show conceptual operation of the inverter in digital logic timing terms.
+
+Recommended filename: Logic_Timing_Diagram.png
 
 * **VTC Curve:** Sigmoid-shaped curve with switching threshold near VDD/2.
 * **Transient Output:** Complementary square wave (Vout ≈ inverted Vin).
