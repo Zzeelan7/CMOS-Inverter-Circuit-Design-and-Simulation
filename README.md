@@ -85,6 +85,7 @@ Notes:
 <img width="500" height="287" alt="500px-Inverter_voltage_transfer_curve" src="https://github.com/user-attachments/assets/1acb152d-df47-4d0e-98f8-31f6906234a2" />
 
 Description: Shows one PMOS and one NMOS transistor connected in series between VDD and GND, with a single input (Vin) and output (Vout).
+
 Search keywords:
 CMOS inverter schematic diagram labeled,
 PMOS NMOS inverter circuit,
@@ -96,6 +97,7 @@ eSim CMOS inverter schematic.
 
 Description: A sigmoid-like curve showing Vout vs Vin (DC sweep).
 It starts high at Vin = 0 V and drops sharply around Vin ≈ 1.65 V for a 3.3 V inverter.
+
 Search keywords:
 CMOS inverter voltage transfer characteristics,
 CMOS inverter VTC plot 3.3V,
@@ -110,6 +112,7 @@ Description: Two waveforms:
 Vin: a square wave toggling between 0 V and 3.3 V
 
 Vout: inverted version of Vin
+
 Search keywords:
 CMOS inverter transient simulation waveform,
 inverter ngspice transient plot,
