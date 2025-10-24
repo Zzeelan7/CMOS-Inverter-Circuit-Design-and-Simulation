@@ -206,6 +206,6 @@ Recommended filename: Logic_Timing_Diagram.png
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 The designed CMOS inverter demonstrates correct digital switching behavior, validating the theoretical operation of CMOS logic using eSim and the SG13G process. The project serves as a foundational reference for more complex digital circuit implementations in open-source EDA environments.
