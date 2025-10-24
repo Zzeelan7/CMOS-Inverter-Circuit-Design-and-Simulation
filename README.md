@@ -38,9 +38,6 @@ Simulations are carried out using **eSim** (an open-source EDA tool integrating 
 | `CMOS_Inverter.kicad_pro`            | KiCad project file                       |
 | `CMOS_Inverter.cir`                  | Base NGSpice netlist                     |
 | `CMOS_Inverter_DC_Sweep.cir`         | Netlist for DC analysis                  |
-| `CMOS_Inverter_with_PDK_include.cir` | Netlist referencing SG13G PDK            |
-| `transient_waveform.png`             | Behavioral transient waveform            |
-| `transient_Vin_Vout.csv`             | Transient simulation data                |
 | `eSimReport.pdf`                     | Final report with results and discussion |
 | `LICENSE`                            | GNU GPLv3 license file                   |
 | `README.md`                          | This documentation file                  |
@@ -104,15 +101,7 @@ Simulations are carried out using **eSim** (an open-source EDA tool integrating 
 
 ## 🌐 GitHub Repository
 
-> Placeholder link: [https://github.com/yourusername/eSim_CMOS_Inverter](https://github.com/yourusername/eSim_CMOS_Inverter)
-
----
-
-## 🧾 License
-
-This project is distributed under the **GNU General Public License v3.0** (GPLv3).
-You are free to use, modify, and distribute it under the same license conditions.
-See the included `LICENSE` file for full legal text.
+> Placeholder link: https://github.com/Zzeelan7/CMOS-Inverter-Circuit-Design-and-Simulation
 
 ---
 
