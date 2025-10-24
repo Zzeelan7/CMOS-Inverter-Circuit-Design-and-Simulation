@@ -80,6 +80,50 @@ Notes:
 
 ## 📊 Expected Results
 
+1. Voltage Transfer Curve
+   
+<img width="500" height="287" alt="500px-Inverter_voltage_transfer_curve" src="https://github.com/user-attachments/assets/1acb152d-df47-4d0e-98f8-31f6906234a2" />
+
+Description: Shows one PMOS and one NMOS transistor connected in series between VDD and GND, with a single input (Vin) and output (Vout).
+Search keywords:
+CMOS inverter schematic diagram labeled,
+PMOS NMOS inverter circuit,
+eSim CMOS inverter schematic.
+
+2. Voltage Transfer Characteristic (VTC)
+
+<img width="850" height="535" alt="Voltage-transfer-characteristic-VTC-curves-of-standard-ternary-inverters-STIs" src="https://github.com/user-attachments/assets/e457e5df-4373-4d18-9fb7-b426a8543660" />
+
+Description: A sigmoid-like curve showing Vout vs Vin (DC sweep).
+It starts high at Vin = 0 V and drops sharply around Vin ≈ 1.65 V for a 3.3 V inverter.
+Search keywords:
+CMOS inverter voltage transfer characteristics,
+CMOS inverter VTC plot 3.3V,
+inverter Vout vs Vin graph.
+
+3. Transient Simulation Waveform
+
+<img width="850" height="834" alt="Comparison-of-output-phase-voltage-waveforms-a-two-level-inverter-b-three-level" src="https://github.com/user-attachments/assets/9b291f12-fdd3-4f8b-b564-77ff02e95276" />
+
+Description: Two waveforms:
+
+Vin: a square wave toggling between 0 V and 3.3 V
+
+Vout: inverted version of Vin
+Search keywords:
+CMOS inverter transient simulation waveform,
+inverter ngspice transient plot,
+Vin Vout CMOS inverter.
+
+4. Timing Diagram
+
+<img width="897" height="526" alt="cad246fc23e5408ea33d4ce0e97b0e5c" src="https://github.com/user-attachments/assets/b7afde83-40cb-4d8a-9a1f-63cae516e543" />
+
+Description: Basic logic-level timing diagram showing the phase shift between Vin and Vout.
+Search keywords:
+inverter logic timing diagram,
+CMOS inverter logic waveform.
+
 * **VTC Curve:** Sigmoid-shaped curve with switching threshold near VDD/2.
 * **Transient Output:** Complementary square wave (Vout ≈ inverted Vin).
 * **Noise Margins:** Derived from the VTC characteristics.
